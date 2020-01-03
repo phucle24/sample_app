@@ -1,0 +1,21 @@
+vn:
+  static_pages:
+    home:
+      title: "Trang Chủ"
+      content_home: "Đây là trang chủ của %{home} ứng dụng mẫu."
+      lt_tutorial: "hướng dẫn Ruby on Rails"
+    about:
+      title: "Chi Tiết"
+      content_about: "%{tutorial} là  %{book} và %{series} để phát triển web.
+      Đây là ứng dụng mẫu %{tutorial} "
+      lt_tutorial: "Hướng dẫn Ruby on Rails"
+      lt_book: "sách"
+      lt_series: "chuỗi"
+    help:
+      title: "Giúp đỡ"
+      content_help: "Lấy các hướng dẫn ở trang chủ này nhé %{help}"
+      lt_help: "Giúp đỡ Ruby on Rails"
+  layouts:
+    application:
+      title_header: "Ứng dụng mẫu Ruby on Rails"
+

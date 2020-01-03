@@ -1,0 +1,8 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t(".content_about",tutorial: link_to(t(".lt_turorial"), Settings.link_tutorial),
+    book: link_to(t(".lt_book"), Settings.link_book),
+    series: link_to(t(".lt_series"), Settings.link_screen),
+    tutorial: link_to(t(".lt_tutorial"), Settings.link_tutorial)).html_safe %>
+</p>
