@@ -1,0 +1,5 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t(".content_contact", contact: link_to(t(".lt_contact"), Settings.link_tutorial)).html_safe %>
+</p>
