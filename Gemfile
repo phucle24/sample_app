@@ -2,7 +2,9 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.6.1"
 gem "bootsnap", ">= 1.1.0", require: false
+gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
+gem "config"
 gem "jbuilder", "~> 2.5"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.4", ">= 5.2.4.1"
@@ -28,5 +30,3 @@ group :development, :test do
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
-gem "config"
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

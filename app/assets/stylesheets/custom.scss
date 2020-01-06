@@ -1,0 +1,55 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+/* Variables Color */
+$logo-color: blue;
+$logo-color-hover: #fff;
+$footer-color: #777;
+$footer-color-a: #555;
+$footer-color-a-hover: #222;
+$footer-bolder-solid: #eaeaea;
+.center.jumbotron {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top : 40px;
+}
+/* css Logo */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: $logo-color;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: $logo-color-hover;
+  text-decoration: none;
+}
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $footer-bolder-solid;
+  color: $footer-color;
+}
+footer a {
+  color: $footer-color-a;
+}
+footer a:hover {
+  color: $footer-color-a-hover;
+}
+footer small {
+  float: left;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}

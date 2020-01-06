@@ -1,20 +1,39 @@
 en:
   static_pages:
     home:
+      description: "Welcome to the Sample App"
       title: "Home"
       content_home: "This is home page for the %{home} sample application"
+      alt_logo: "Rails Logo"
       lt_tutorial: "Ruby on Rails Tutorial"
+      lt_signup: "Sign up now"
     about:
       title: "About"
       content_about: "%{tutorial} is a %{book} and %{series} to teach web development with
       .This is the sample application for the tutorial %{tutorial} "
-      lt_tutorial: "Ruby on Rails Turorial "
+      lt_tutorial: "Ruby on Rails Turorial"
       lt_book: "book"
       lt_series: "series"
     help:
       title: "Help"
       content_help: "Get help on the Ruby on Rails Tutorial at the %{help}"
       lt_help: " Ruby on Rails help"
+    contact:
+      title: "Contact"
+      content_contact: "Contact the Ruby on Rails Tutorial about the sample app at the
+      %{contact}"
+      lt_contact: "Contact Page"
+      lt_tutorial: "Hướng dẫn Ruby on Rails"
   layouts:
     application:
       title_header: "Ruby on Rails Tutorial Sample App"
+    header:
+      title_home: "Home"
+      title_help : "Help"
+      title_login: "Login"
+    footer:
+      content_footer: "%{tutorial} by %{by_author}"
+      lt_author: "Michael Hart"
+      lt_tutorial: "Ruby on Rails Turorial"
+      title_about: "About"
+      title_contact: "Contact"

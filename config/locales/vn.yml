@@ -1,9 +1,12 @@
 vn:
   static_pages:
     home:
+      description: "Chào mừng đến với Ứng dụng mẫu"
       title: "Trang Chủ"
       content_home: "Đây là trang chủ của %{home} ứng dụng mẫu."
+      alt_logo: "Biểu tượng Rails"
       lt_tutorial: "hướng dẫn Ruby on Rails"
+      lt_signup : "Đăng nhập ngay"
     about:
       title: "Chi Tiết"
       content_about: "%{tutorial} là  %{book} và %{series} để phát triển web.
@@ -15,7 +18,22 @@ vn:
       title: "Giúp đỡ"
       content_help: "Lấy các hướng dẫn ở trang chủ này nhé %{help}"
       lt_help: "Giúp đỡ Ruby on Rails"
+    contact:
+      title: "Liên Hệ"
+      content_contact: "Liên hệ để lấy thêm thông tin tại %{contact}"
+      lt_contact: "Contact Page"
+      lt_tutorial: "Hướng dẫn Ruby on Rails"
   layouts:
     application:
       title_header: "Ứng dụng mẫu Ruby on Rails"
+    header:
+      title_home: "Trang chủ"
+      title_help : "Giúp đỡ"
+      title_login: "Đăng nhập"
+    footer:
+      content_footer: "%{tutorial} bởi %{by_author}"
+      lt_author: "Michael Hart"
+      lt_tutorial: "Hướng dẫn Ruby on Rails"
+      title_about: "Chi tiết"
+      title_contact: "Liên hệ"
 
