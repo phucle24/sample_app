@@ -8,10 +8,14 @@
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
   <body>
-  <p>
-    <%= link_to t("english"), local: "en" %>
-    <%= link_to t("vietnam"), local: "vn" %>
-  </p>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <p>
+      <%= link_to t("english"), local: "en" %>
+      <%= link_to t("vietnam"), local: "vn" %>
+    </p>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>

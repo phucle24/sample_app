@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t(".content_footer", tutorial: link_to(t(".lt_tutorial"),
+      Settings.link_tutorial), by_author: link_to(t(".lt_author"),
+        Settings.link_author)).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".title_about"), about_path %></li>
+      <li><%= link_to t(".title_contact"), contact_path %></li>
+    </ul>
+  </nav>
+</footer>
