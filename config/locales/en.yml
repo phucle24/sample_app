@@ -28,6 +28,7 @@ en:
     application:
       title_header: "Ruby on Rails Tutorial Sample App"
     header:
+      vietnam: "Viet Nam"
       title_home: "Home"
       title_help : "Help"
       title_login: "Login"
@@ -37,3 +38,13 @@ en:
       lt_tutorial: "Ruby on Rails Turorial"
       title_about: "About"
       title_contact: "Contact"
+  users:
+    not_found: "Not found users"
+    create_success: "Wellcome to Sample_app"
+    create_fail: "Sign up fails"
+    new:
+      title: "Sign Up"
+      btn_submit: "Submit"
+  shared:
+    error_messages:
+      content_error: "The form contain %{error} error"

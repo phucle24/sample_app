@@ -6,6 +6,6 @@
     <%= t(".content_home", home: link_to(t(".lt_tutorial"),
       Settings.link_tutorial)).html_safe %>
   </h2>
-  <%= link_to t(".lt_signup"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".lt_signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 <%= link_to image_tag("rails.png", alt: t(".alt_logo")), Settings.link_tutorial %>
