@@ -3,3 +3,10 @@ link_help: https://www.railstutorial.org/help
 link_book: https://www.railstutorial.org/book
 link_screen: http://screencasts.railstutorial.org/
 link_author: http://www.michaelhartl.com/
+uses:
+  name:
+    maximum: 20
+  email:
+    maximum: 255
+  password:
+    minimum: 6
