@@ -1,5 +1,11 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
-<p>
-  <%= t(".content_home", home: link_to(t(".lt_tutorial"), Settings.link_tutorial)).html_safe %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".description" %></h1>
+  <h1><%= t ".title" %></h1>
+  <h2>
+    <%= t(".content_home", home: link_to(t(".lt_tutorial"),
+      Settings.link_tutorial)).html_safe %>
+  </h2>
+  <%= link_to t(".lt_signup"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: t(".alt_logo")), Settings.link_tutorial %>
