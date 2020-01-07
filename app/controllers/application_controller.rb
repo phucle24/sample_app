@@ -3,10 +3,10 @@ class ApplicationController < ActionController::Base
 
   private
   def set_locale
-    I18n.locale = params[:local] || I18n.default_locale
+    I18n.locale = params[:locale] || I18n.default_locale
   end
 
-  def default_url_options
-    {local: I18n.locale}
+  def default_url_options _option = {}
+    {locale: I18n.locale}
   end
 end
