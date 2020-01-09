@@ -31,6 +31,11 @@ vn:
       title_home: "Trang chủ"
       title_help : "Giúp đỡ"
       title_login: "Đăng nhập"
+      title_account: "Tài khoản"
+      title_profile: "Thông tin"
+      title_setting: "Chỉnh sửa"
+      title_logout: "Thoát"
+      user: "Người dùng"
     footer:
       content_footer: "%{tutorial} bởi %{by_author}"
       lt_author: "Michael Hart"
@@ -47,6 +52,14 @@ vn:
   shared:
     error_messages:
       content_error: "Biểu mẫu này có %{error} lỗi"
+  sessions:
+    login_success: "Chào mừng bạn nhé !"
+    login_fail: "Email hoặc Password không đúng"
+    new:
+      title: "Đăng nhập"
+      btn_login: "Đăng nhập"
+      user: "Chưa có tài khoản ? "
+      sign_up: "Đăng kí ngay !!"
   activerecord:
     attributes:
       user:
@@ -54,6 +67,9 @@ vn:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      sessions:
+        new:
+          password: "Mật khẩu"
     errors:
       messages:
         blank: "không được để trống"

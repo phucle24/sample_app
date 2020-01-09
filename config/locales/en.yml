@@ -32,6 +32,10 @@ en:
       title_home: "Home"
       title_help : "Help"
       title_login: "Login"
+      title_profile: "Profile"
+      title_setting: "Setting"
+      title_account: "Account"
+      title_logout: "Logout"
     footer:
       content_footer: "%{tutorial} by %{by_author}"
       lt_author: "Michael Hart"
@@ -48,3 +52,11 @@ en:
   shared:
     error_messages:
       content_error: "The form contain %{error} error"
+  sessions:
+    login_success: "Login success!"
+    login_fail: "Invalid email or password combination"
+    new:
+      title: "Login"
+      btn_login: "Login"
+      user: "New user ?"
+      sign_up: "Sign up now !!"
