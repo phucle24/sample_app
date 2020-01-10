@@ -7,3 +7,4 @@ name_maximum: 20
 email_maximum: 255
 email_valid: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 minimum_pass: 6
+checkbox: "1"
