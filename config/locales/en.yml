@@ -36,6 +36,7 @@ en:
       title_setting: "Setting"
       title_account: "Account"
       title_logout: "Logout"
+      title_users: "Users"
     footer:
       content_footer: "%{tutorial} by %{by_author}"
       lt_author: "Michael Hart"
@@ -46,9 +47,16 @@ en:
     not_found: "Not found users"
     create_success: "Wellcome to Sample_app"
     create_fail: "Sign up fails"
+    update_success: "Profile updated"
+    alert_login: "You need login"
     new:
       title: "Sign Up"
       btn_submit: "Submit"
+    edit:
+      title: "Chỉnh sửa"
+      btn_edit: "Save changes"
+    index:
+      title_users: "Users"
   shared:
     error_messages:
       content_error: "The form contain %{error} error"

@@ -8,7 +8,8 @@ class User < ApplicationRecord
                         format: {with: Settings.email_valid},
                           uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-                        length: {minimum: Settings.minimum_pass}
+                        length: {minimum: Settings.minimum_pass},
+                          allow_nil: true
 
   class << self
     def digest string
@@ -18,7 +19,7 @@ class User < ApplicationRecord
     end
 
     def new_token
-    SecureRandom.urlsafe_base64
+      SecureRandom.urlsafe_base64
     end
   end
 
@@ -28,7 +29,7 @@ class User < ApplicationRecord
   end
 
   def authenticated? remember_token
-      BCrypt::Password.new(remember_digest).is_password? remember_token
+    BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 
   def forget

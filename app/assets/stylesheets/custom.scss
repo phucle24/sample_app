@@ -12,6 +12,7 @@ $form-bolder-solid: #bbb;
 $state-danger-text: red;
 $alert-color: red;
 $alert-background-color: mediumseagreen;
+$users-border: gray-lighter;
 .center.jumbotron {
     text-align: center;
 }
@@ -145,4 +146,13 @@ aside {
 #session_remember_me {
   margin-left: 0;
   width: auto;
+}
+.users{
+  list-style: none;
+  margin: 0;
+  li{
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px sloid $users-border;
+  }
 }
