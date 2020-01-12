@@ -55,7 +55,7 @@ vn:
       title: "Chỉnh sửa"
       btn_edit: "Lưu thay đổi"
     index:
-      itle_users: "Người dùng"
+      title_users: "Người dùng"
   shared:
     error_messages:
       content_error: "Biểu mẫu này có %{error} lỗi"
