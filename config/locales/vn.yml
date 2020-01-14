@@ -60,6 +60,7 @@ vn:
       btn_login: "Đăng nhập"
       user: "Chưa có tài khoản ? "
       sign_up: "Đăng kí ngay !!"
+      remember_me: "Ghi nhớ đăng nhập"
   activerecord:
     attributes:
       user:
