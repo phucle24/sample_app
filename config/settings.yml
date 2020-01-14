@@ -3,9 +3,10 @@ link_help: https://www.railstutorial.org/help
 link_book: https://www.railstutorial.org/book
 link_screen: http://screencasts.railstutorial.org/
 link_author: http://www.michaelhartl.com/
-name_maximum: 20
+name_maximum: 100
 email_maximum: 255
 email_valid: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 minimum_pass: 6
 checkbox: "1"
 gravatar_size: 50
+micropost_length: 140
