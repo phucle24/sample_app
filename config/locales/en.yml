@@ -49,6 +49,8 @@ en:
     create_fail: "Sign up fails"
     update_success: "Profile updated"
     alert_login: "You need login"
+    user_deleted: "User deleted"
+    checkmail: "Please check your email to activate your account."
     new:
       title: "Sign Up"
       btn_submit: "Submit"
@@ -57,15 +59,50 @@ en:
       btn_edit: "Save changes"
     index:
       title_users: "Users"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view: "View my profile"
   shared:
     error_messages:
       content_error: "The form contain %{error} error"
+    stats:
+      following: "following"
+      followers: "followers"
+    micropost_form:
+      post: "Compose new micropost"
+      btn_post: "Post"
+    user_info:
+      view_profile: "View my profile"
   sessions:
     login_success: "Login success!"
     login_fail: "Invalid email or password combination"
+    account_mesg: "Account not activated. Check your email for the activation link."
     new:
       title: "Login"
       btn_login: "Login"
       user: "New user ?"
       sign_up: "Sign up now !!"
       remember_me: "Remember me on this computer"
+      forgot_password: "(Forgot password)"
+  password_resets:
+    new:
+      title: "Reset Password"
+      btn_reset: "Reset"
+    edit:
+      title: "Update Password"
+      update_password: "Update Password"
+  microposts:
+    micropost_success: "Micropost success"
+    micropost_failed: "Micropost failed"
+    micropost_deleted: "Micropost deleted"
+    micropost:
+      delete: "delete"
+      timestamp: "Post %{count} ago"
+  user_mailer:
+    password_reset:
+      title: "Reset Password"
+  relationships:
+

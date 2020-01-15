@@ -48,6 +48,8 @@ vn:
     create_fail: "Tạo mới thất bại"
     update_success: "Cập nhật thành công"
     alert_login: "Bạn chưa đăng nhập"
+    user_deleted: "Xóa tài khoản thành công"
+    checkmail: "Vui lòng kiểm tra mail để kích hoạt tài khoản"
     new:
       title: "Đăng kí"
       btn_submit: "Gửi"
@@ -56,18 +58,52 @@ vn:
       btn_edit: "Lưu thay đổi"
     index:
       title_users: "Người dùng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view: "Xem trang cá nhân"
   shared:
     error_messages:
       content_error: "Biểu mẫu này có %{error} lỗi"
+    stats:
+      following: "người đang theo dõi"
+      followers: "người theo dõi"
+    micropost_form:
+      post: "Thêm nội dung"
+      btn_post: "Đăng"
+    user_info:
+      view_profile: "Xem trang cá nhân"
   sessions:
     login_success: "Chào mừng bạn nhé !"
     login_fail: "Email hoặc Password không đúng"
+    account_mesg: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra mail để kích hoạt"
     new:
       title: "Đăng nhập"
       btn_login: "Đăng nhập"
       user: "Chưa có tài khoản ? "
       sign_up: "Đăng kí ngay !!"
       remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "(Quên mật khẩu)"
+  password_resets:
+    edit:
+      title: "Cập nhật mật khẩu"
+      update_password: "Update Password"
+    new:
+      title: "Lấy lại mật khẩu"
+      btn_reset: "Gửi"
+  microposts:
+    micropost_success: "Micropost tạo thành công"
+    micropost_failed: "Đăng Micropost không thành công"
+    micropost_deleted: "Đã xóa Micropost"
+    micropost:
+      delete: "Xóa"
+      timestamp: "Đăng khoảng %{count} trước"
+  user_mailer:
+    password_reset:
+      title: "Cập nhật mật khẩu"
+  relationships:
   activerecord:
     attributes:
       user:
@@ -76,11 +112,43 @@ vn:
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
       sessions:
-        new:
-          password: "Mật khẩu"
+        password: "Mật khẩu"
     errors:
       messages:
         blank: "không được để trống"
         invalid: "không đúng định dạng"
         too_short: "quá ngắn"
-
+  datetime:
+    distance_in_words:
+      about_x_seconds:
+        other: khoảng %{count} giây
+      about_x_minutes:
+        other: khoảng %{count} phút
+      about_x_hours:
+        other: khoảng %{count} giờ
+      about_x_months:
+        other: khoảng %{count} tháng
+      about_x_years:
+        other: khoảng %{count} năm
+      over_x_years:
+        other: trên %{count} năm
+      x_seconds:
+        other: "%{count} giây"
+      x_minutes:
+        other: "%{count} phút"
+      x_days:
+        one: 1 ngày
+        other: "%{count} ngày"
+      x_months:
+        one: 1 tháng
+        other: "%{count} months"
+      x_years:
+        one: 1 năm
+        other: "%{count} years"
+    prompts:
+      second: Second
+      minute: Minute
+      hour: Hour
+      day: Day
+      month: Month
+      year: Year
